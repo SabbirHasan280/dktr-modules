@@ -1,0 +1,78 @@
+/* common css responsive part */
+@media screen and (max-width: 1300px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 500px) {
+  .dktr_wrapper {
+    display: flex;
+  }
+}
+
+/* dktr logo responsive part */
+@media screen and (max-width: 1100px) {
+  .dktr_wrapper-logo img {
+    width: 50%;
+    height: 50%;
+    margin-right: 70px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .dktr_wrapper-logo img {
+    height: 45%;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .dktr_wrapper-logo {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .dktr_wrapper-logo img {
+    width: 35%;
+    height: 40%;
+    margin: 0 auto;
+  }
+  .dktr_wrapper-login {
+    width: 85%;
+  }
+  .dktr_page{
+    display: block;
+    height: 140vh;
+    padding-top: 30px ;
+  }
+}
+/* @media screen and(min-width: 500px) {
+  .dktr_page {
+    height: 100vh;
+  }
+} */
+
+/* dktr login responsive part */
+
+@media screen and (max-width: 390px) {
+  .dktr_wrapper-login {
+    width: 84%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .dktr_wrapper-login {
+    width: 83%;
+  }
+}
+@media screen and (max-width: 345px) {
+  .dktr_wrapper-login {
+    width: 82%;
+  }
+}
+@media screen and (max-width: 330px) {
+  .dktr_wrapper-login {
+    width: 81%;
+  }
+}
