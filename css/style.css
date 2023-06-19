@@ -1,8 +1,96 @@
+/* all common css */
+/* * {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background: red;
+  height: 100vh;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+} */
+/* all common css */
+
+/* .dktr_full_wrapper {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dktr_wrapper-logo {
+  width: 45%;
+  background: yellow;
+} */
+
+/* login part start */
+/* .dktr_wrapper-login {
+  width: 45%;
+  background: #ffffff;
+
+  padding: 30px 20px;
+  color: #010a25;
+  border-radius: 19px;
+}
+.dktr_wrapper-login h1 {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 30px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.dktr_wrapper-login .email_text {
+  margin-bottom: 30px;
+}
+button {
+  background-color: rgba(255, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 17px;
+  font-weight: 400;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+button:hover {
+  opacity: 0.8;
+} */
+/* login part end */
+
+
+/* |
+|
+| */
 /*all common css*/
 * {
   margin: 0;
   padding: 0;
   outline: 0;
+}
+body {
+  background: #010a25;
+  height: 100vh;
+  overflow: hidden;
 }
 a {
   text-decoration: none;
@@ -16,6 +104,7 @@ ol {
 }
 .full_wrapper {
   width: 100%;
+  background: #1A1D3A;
 }
 .wrapper {
   max-width: 1170px;
@@ -24,19 +113,18 @@ ol {
 /*all common css*/
 
 /* dktr_page start */
-.dktr_page {
-  width: 100%;
-  height: 100vh;
+/* .dktr_full_wrapper {
   background: #010a25;
   color: white;
-  /* padding: 50px 0px; */
-  display: flex;
-  align-items: center;
-}
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
 /* dktr_page end */
 
 /* dktr logo part */
-.dktr_wrapper-logo {
+/* .dktr_wrapper-logo {
   width: 50%;
   display: flex;
   align-items: center;
@@ -48,7 +136,7 @@ ol {
   margin-right: 120px;
 }
 /* dktr login part */
-.dktr_wrapper-login {
+/* .dktr_wrapper-login {
   width: 50%;
   background: #ffffff;
   padding: 40px 30px;
@@ -90,13 +178,14 @@ button {
 
 button:hover {
   opacity: 0.8;
-}
+} */
+*/
 /* daktr part end */
 
 /* select part start */
 .select_part_top {
   width: 100%;
-  background: #1a1d3a;
+  background: #1A1D3A;
 }
 .select_part_top h1 {
   font-size: 27px;
@@ -134,7 +223,7 @@ button:hover {
   color: rgba(50, 50, 50, 1);
   margin-top: 10px;
   /* line-height: 16px; */
-}
+} 
 .item_icon {
   position: absolute;
   top: -25%;
