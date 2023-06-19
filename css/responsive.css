@@ -16,7 +16,7 @@
 }
 
 /* dktr logo responsive part */
-/* @media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
   .dktr_wrapper-logo img {
     width: 50%;
     height: 50%;
@@ -47,11 +47,11 @@
     height: 100vh;
     padding-top: 30px;
   }
-} */
+}
 
 /* dktr login responsive part */
 
-/* @media screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
   .dktr_wrapper-login {
     width: 84%;
   }
@@ -70,7 +70,7 @@
   .dktr_wrapper-login {
     width: 81%;
   }
-} */
+}
 
 /* select part responsive start */
 @media screen and (max-width: 810px) {
